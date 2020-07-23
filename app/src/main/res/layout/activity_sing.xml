@@ -30,9 +30,13 @@
         android:src="@drawable/corazonn"
         tools:layout_editor_absoluteX="107dp"
         tools:layout_editor_absoluteY="49dp"
-        tools:ignore="MissingConstraints" />
-
-
+        android:id="@+id/imageView1"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
