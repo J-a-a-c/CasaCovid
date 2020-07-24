@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".sing">
+    tools:context=".sing"
+    tools:ignore="ContentDescription">
 
     <View
         android:id="@+id/topview"
@@ -25,12 +26,16 @@
         app:layout_constraintTop_toBottomOf="@+id/topview" />
 
     <ImageView
+        android:id="@+id/imageView1"
         android:layout_width="146dp"
         android:layout_height="100dp"
         android:src="@drawable/corazonn"
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="49dp"
-        android:id="@+id/imageView1"/>
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/topview"
+        app:layout_constraintVertical_bias="0.346" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
