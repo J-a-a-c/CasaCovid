@@ -10,19 +10,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".sing"></activity>
-        <activity android:name=".perfil_doctor"></activity>
-        <activity android:name=".perfil_paciente"></activity>
-        <activity android:name=".login_activity"></activity>
-
+        <activity android:name=".Registro_activity"></activity>
+        <activity android:name=".sing" />
+        <activity android:name=".perfil_doctor" />
+        <activity android:name=".perfil_paciente" />
+        <activity android:name=".login_activity" />
         <activity android:name=".MainActivity">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
