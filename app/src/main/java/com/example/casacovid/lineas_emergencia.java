@@ -19,6 +19,8 @@ public class lineas_emergencia extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lineas_emergencia);
+        getSupportActionBar().hide();
+
         btnLlamar1=(Button) findViewById(R.id.btnLlamar1);
         btnLlamar2=(Button) findViewById(R.id.btnLlamar2);
         btnLlamar3=(Button) findViewById(R.id.btnLlamar3);
