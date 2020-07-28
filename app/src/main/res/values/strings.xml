@@ -16,4 +16,9 @@
     <string name="titulo2">SOBRE NOSOTROS</string>
     <string name="tema1">Descripcion del grupo de Proyecto de la Universidad Nacional del Callao </string>
 
+    <string name="titulo3">BIENVENIDO</string>
+    <string name="tema2">Nuestra aplicación te permitirá tener un seguimiento en tu tratameinto del Covid-19 </string>
+    <string name="rec1">Recomendación 1</string>
+    <string name="rec2">Recomendación 2</string>
+    <string name="rec3">Recomendación 3</string>
 </resources>
