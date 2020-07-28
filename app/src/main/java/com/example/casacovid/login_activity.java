@@ -16,16 +16,14 @@ public class login_activity extends AppCompatActivity {
         setContentView(R.layout.activity_login_activity);
         getSupportActionBar().hide();
 
-        Button btnRegistro = findViewById(R.id.btnRegistro);
-        btnRegistro.setOnClickListener(new View.OnClickListener() {
+        Button btnLogin = (Button) findViewById(R.id.btnLogin);
+        btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent (v.getContext(), Registro_activity.class);
                 startActivityForResult(intent, 0);
             }
         });
-
-
-
+        
     }
 }
