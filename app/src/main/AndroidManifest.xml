@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".lineas_emergencia"></activity>
+        <activity android:name=".sobre_nosotros"></activity>
+        <activity android:name=".lineas_emergencia" />
         <activity android:name=".Registro_activity" />
         <activity android:name=".sing" />
         <activity android:name=".perfil_doctor" />
