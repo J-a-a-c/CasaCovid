@@ -15,6 +15,13 @@
 
     <string name="titulo2">SOBRE NOSOTROS</string>
     <string name="tema1">Alumnos de la FIIS de la Universidad Nacional del Callao </string>
+    <string name="alumno">Alumnos: </string>
+    <string name="alumno1">-Alarcón Castillo José </string>
+    <string name="alumno2">-Chavez Palomino Alfredo Manuel </string>
+    <string name="alumno3">-Esteban Shuan Casey </string>
+    <string name="alumno4">-Flores Huanca María Inés </string>
+    <string name="alumno5">-Huamanyari Katherine </string>
+
     <string name="titulo3">BIENVENIDO</string>
     <string name="tema2">Nuestra aplicación te permitirá tener un seguimiento en tu tratameinto del Covid-19 </string>
     <string name="rec1">Recomendación 1</string>
