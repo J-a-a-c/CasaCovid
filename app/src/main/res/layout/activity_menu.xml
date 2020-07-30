@@ -65,7 +65,7 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/ic_llamada" />
+                    android:src="@drawable/recom" />
 
                 <TextView
                     android:layout_width="wrap_content"

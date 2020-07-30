@@ -33,7 +33,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/titulo3"
         android:textColor="#FFFFFF"
-        android:textSize="30sp"
+        android:textSize="36sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/view3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -118,15 +119,13 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="82dp"
-        android:layout_height="108dp"
-        android:layout_marginTop="68dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnSiguiente"
+        android:layout_width="110dp"
+        android:layout_height="157dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toEndOf="@+id/txt3"
         app:layout_constraintTop_toBottomOf="@+id/txt1"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="?attr/actionModePasteDrawable" />
+        app:srcCompat="@drawable/recom" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

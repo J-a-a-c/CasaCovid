@@ -28,19 +28,17 @@
         android:layout_width="413dp"
         android:layout_height="162dp"
         android:background="@color/colorPrimary"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="235dp"
         android:layout_height="77dp"
-        android:layout_marginStart="44dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="68dp"
         android:text="EMERGENCIA"
         android:textAllCaps="false"
@@ -50,34 +48,30 @@
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
         app:layout_constraintEnd_toStartOf="@+id/imageView7"
         app:layout_constraintHorizontal_bias="0.549"
-        app:layout_constraintStart_toStartOf="@+id/topView"
-        app:layout_constraintTop_toTopOf="@+id/topView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.58" />
+
 
     <View
         android:id="@+id/view1"
         android:layout_width="0dp"
         android:layout_height="100dp"
-        android:layout_marginBottom="388dp"
         android:background="@drawable/wave"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/topView"
-        app:layout_constraintVertical_bias="0.654" />
-
+        app:layout_constraintTop_toBottomOf="@+id/topView" />
 
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="102dp"
         android:layout_height="90dp"
-        app:layout_constraintBottom_toBottomOf="@+id/topView"
+        android:layout_marginTop="52dp"
         app:layout_constraintEnd_toEndOf="@+id/topView"
-        app:layout_constraintHorizontal_bias="0.628"
+        app:layout_constraintHorizontal_bias="0.59"
         app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="@+id/topView"
-        app:layout_constraintVertical_bias="0.811"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/corazonn" />
 
     <ImageView
@@ -86,6 +80,7 @@
         android:layout_height="229dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine"
         app:srcCompat="@drawable/botonazo" />
