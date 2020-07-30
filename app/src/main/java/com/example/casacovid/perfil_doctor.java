@@ -10,5 +10,6 @@ public class perfil_doctor extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_perfil_doctor);
+        getSupportActionBar().hide();
     }
 }
