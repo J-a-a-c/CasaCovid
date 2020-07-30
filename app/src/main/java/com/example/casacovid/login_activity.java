@@ -37,7 +37,7 @@ public class login_activity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent (v.getContext(), lineas_emergencia.class);
+                Intent intent = new Intent (v.getContext(), menu.class);
                 startActivityForResult(intent, 0);
             }
         });
