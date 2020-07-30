@@ -76,7 +76,7 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/ic_hombre" />
+                    android:src="@drawable/ic_hombre1" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -144,7 +144,7 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/ic_hombre" />
+                    android:src="@drawable/ic_hombre2" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -213,7 +213,7 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/ic_mujer" />
+                    android:src="@drawable/ic_mujer2" />
 
                 <TextView
                     android:layout_width="wrap_content"
