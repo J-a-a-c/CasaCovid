@@ -13,6 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".PaginaEmergencia"></activity>
+        <activity android:name=".menu"></activity>
+        <activity android:name=".Sintomas2" />
         <activity android:name=".sintomas" />
         <activity android:name=".recomendaciones" />
         <activity android:name=".sobre_nosotros" />

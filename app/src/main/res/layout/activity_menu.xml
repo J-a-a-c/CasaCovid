@@ -43,8 +43,9 @@
 
 
         <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/card1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_row="0"
             android:layout_rowWeight="1"
             android:layout_column="0"
@@ -62,22 +63,23 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_call" />
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_llamada" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="HOME"
+                    android:text="RECOMENDACIONES"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/card2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_row="0"
             android:layout_rowWeight="1"
             android:layout_column="1"
@@ -95,22 +97,23 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_call" />
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_llamada" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="LANGUAGE"
+                    android:text="LINEAS DE EMERGENCIA"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/card3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_row="1"
             android:layout_rowWeight="1"
             android:layout_column="0"
@@ -128,22 +131,23 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_call" />
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/diagnostico" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="CHAT"
+                    android:text="SINTOMAS"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/card4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_row="1"
             android:layout_rowWeight="1"
             android:layout_column="1"
@@ -161,14 +165,14 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_call" />
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/doctors_bag" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="CALENDAR"
+                    android:text="SINTOMAS V2"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -176,8 +180,9 @@
 
 
         <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/card5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_row="2"
             android:layout_rowWeight="1"
             android:layout_column="0"
@@ -195,22 +200,23 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_call" />
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/corazonn" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="WIDGETS"
+                    android:text="PAGINA DE EMERGENCIA"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/card6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_row="2"
             android:layout_rowWeight="1"
             android:layout_column="1"
@@ -228,14 +234,14 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_call" />
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/covid" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="INFO"
+                    android:text="NOSOTROS"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>
