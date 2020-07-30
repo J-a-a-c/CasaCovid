@@ -12,6 +12,22 @@
         android:layout_height="100dp"
         android:background="@color/colorPrimary" />
 
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="153dp"
+        android:text="@string/titulo1"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <View
         android:id="@+id/view1"
         android:layout_below="@id/view"
@@ -31,7 +47,7 @@
         android:layout_below="@id/view2"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="@color/colorPrimary" />
+        android:background="@drawable/wave" />
 
     <GridLayout
         android:layout_width="match_parent"

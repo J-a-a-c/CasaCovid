@@ -16,14 +16,16 @@
     <string name="num6">Clave Médica</string>
     <string name="num7">Ambulancias de ESSALUD</string>
 
+    <string name="titulo1">MENU</string>
+
     <string name="titulo2">NOSOTROS</string>
     <string name="tema1">Alumnos de la FIIS de la Universidad Nacional del Callao</string>
     <string name="alumno">Alumnos:</string>
-    <string name="alumno1">-Alarcón Castillo José</string>
-    <string name="alumno2">-Chavez Palomino Alfredo Manuel</string>
-    <string name="alumno3">-Esteban Shuan Casey</string>
-    <string name="alumno4">-Flores Huanca María Inés</string>
-    <string name="alumno5">-Huamanyari Jaime Katherine</string>
+    <string name="alumno1">Alarcón Castillo José</string>
+    <string name="alumno2">Chavez Palomino Alfredo</string>
+    <string name="alumno3">Esteban Shuan Casey</string>
+    <string name="alumno4">Flores Huanca María</string>
+    <string name="alumno5">Huamanyari Katherine</string>
 
     <string name="titulo3">RECOMENDACIONES</string>
     <string name="tema2">Te mostramos una serie de recomendaciones para que estés más saludable </string>
