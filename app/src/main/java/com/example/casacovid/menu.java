@@ -47,7 +47,7 @@ public class menu extends AppCompatActivity {
         card4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent (v.getContext(), Sintomas2.class);
+                Intent intent = new Intent (v.getContext(), covid19.class);
                 startActivityForResult(intent, 0);
             }
         });

@@ -4,6 +4,7 @@
     package="com.example.casacovid">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -12,8 +13,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PaginaEmergencia"></activity>
-        <activity android:name=".menu"></activity>
+        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".paises_afectados" />
+        <activity android:name=".covid19" />
+        <activity android:name=".PaginaEmergencia" />
+        <activity android:name=".menu" />
         <activity android:name=".Sintomas2" />
         <activity android:name=".sintomas" />
         <activity android:name=".recomendaciones" />
