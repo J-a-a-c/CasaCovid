@@ -18,15 +18,12 @@
         <activity android:name=".covid19" />
         <activity android:name=".PaginaEmergencia" />
         <activity android:name=".menu" />
-        <activity android:name=".Sintomas2" />
         <activity android:name=".sintomas" />
         <activity android:name=".recomendaciones" />
         <activity android:name=".sobre_nosotros" />
         <activity android:name=".lineas_emergencia" />
         <activity android:name=".Registro_activity" />
         <activity android:name=".sing" />
-        <activity android:name=".perfil_doctor" />
-        <activity android:name=".perfil_paciente" />
         <activity android:name=".login_activity" />
         <activity android:name=".MainActivity">
             <intent-filter>
