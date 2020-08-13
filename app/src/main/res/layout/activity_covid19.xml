@@ -42,7 +42,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="15dp"
+                    android:layout_height="18dp"
                     android:gravity="center_vertical">
                     <View
                         android:layout_width="15dp"
@@ -57,7 +57,7 @@
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="15dp"
+                    android:layout_height="18dp"
                     android:gravity="center_vertical"
                     android:layout_marginTop="5dp">
                     <View
@@ -73,7 +73,7 @@
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="15dp"
+                    android:layout_height="18dp"
                     android:gravity="center_vertical"
                     android:layout_marginTop="5dp">
                     <View
@@ -89,7 +89,7 @@
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="15dp"
+                    android:layout_height="18dp"
                     android:gravity="center_vertical"
                     android:layout_marginTop="5dp">
                     <View
