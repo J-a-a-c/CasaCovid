@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1076844777203",
+    "firebase_url": "https://proyecto-sistemas-9d517.firebaseio.com",
+    "project_id": "proyecto-sistemas-9d517",
+    "storage_bucket": "proyecto-sistemas-9d517.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076844777203:android:5c724fe7eb5c744ba13186",
+        "android_client_info": {
+          "package_name": "com.example.casacovid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076844777203-hmmskdhm83f2ulahqch03gg5mvm6qe8u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.casacovid",
+            "certificate_hash": "43d0b1873094dd96acbfabd1f420838713f2e88c"
+          }
+        },
+        {
+          "client_id": "1076844777203-6qh26ouh0s43infp5ng7g59j4o0ossid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3n6AhxR3oLjjvOYYbLPFgO3mjEewdctA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076844777203-6qh26ouh0s43infp5ng7g59j4o0ossid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -44,7 +44,7 @@
             android:layout_marginTop="29dp"
             android:layout_marginEnd="157dp"
             android:layout_marginBottom="51dp"
-            app:layout_constraintBottom_toTopOf="@+id/inputEmail2"
+            app:layout_constraintBottom_toTopOf="@+id/correo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
@@ -53,7 +53,7 @@
             app:srcCompat="@drawable/covid" />
 
         <EditText
-            android:id="@+id/inputEmail2"
+            android:id="@+id/correo"
             android:layout_below="@id/view5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -72,9 +72,9 @@
             app:layout_constraintTop_toBottomOf="@+id/view5" />
 
         <EditText
-            android:id="@+id/inputPassword"
+            android:id="@+id/contrasena"
             android:layout_width="match_parent"
-            android:layout_below="@id/inputEmail2"
+            android:layout_below="@id/correo"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="20dp"
@@ -88,85 +88,48 @@
             android:padding="16dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/inputEmail2" />
-
+            app:layout_constraintTop_toBottomOf="@+id/correo" />
         <EditText
-            android:id="@+id/inputNombres"
+            android:id="@+id/contrasenaConfirmacion"
             android:layout_width="match_parent"
-            android:layout_below="@id/inputPassword"
+            android:layout_below="@id/contrasena"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="32dp"
             android:background="@drawable/round_border"
-            android:drawableStart="@drawable/ic_nombres"
+            android:drawableStart="@drawable/ic_lock"
             android:drawablePadding="16dp"
             android:ems="10"
-            android:hint="Nombres"
-            android:inputType="text"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
             android:padding="16dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/inputPassword" />
+            app:layout_constraintTop_toBottomOf="@+id/contrasena" />
 
-        <EditText
-            android:id="@+id/inputApellidos"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/inputNombres"
-            android:hint="Apellidos"
-            android:inputType="text"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="32dp"
-            android:background="@drawable/round_border"
-            android:drawableStart="@drawable/ic_nombres"
-            android:drawablePadding="16dp"
-            android:ems="10"
-            android:padding="16dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/inputNombres"/>
 
-        <EditText
-            android:id="@+id/inputCall"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/inputApellidos"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="32dp"
-            android:background="@drawable/round_border"
-            android:drawableStart="@drawable/ic_call"
-            android:drawablePadding="16dp"
-            android:ems="10"
-            android:hint="Celular"
-            android:inputType="phone"
-            android:padding="16dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/inputApellidos"
-            android:importantForAutofill="no" />
 
         <Button
             android:id="@+id/btnRegistro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/inputCall"
+            android:layout_below="@id/contrasenaConfirmacion"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="32dp"
             android:background="@drawable/round_bg"
+            android:drawablePadding="16dp"
+            android:ems="10"
+            android:onClick="registrarUsuario"
+            android:padding="16dp"
             android:text="REGISTRAR"
             android:textColor="@android:color/white"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="32dp"
-            android:drawablePadding="16dp"
-            android:ems="10"
-            android:padding="16dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/inputCall"/>
+            app:layout_constraintTop_toBottomOf="@+id/contrasenaConfirmacion" />
 
     </RelativeLayout>
 
