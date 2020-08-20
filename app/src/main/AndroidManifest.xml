@@ -16,7 +16,6 @@
         <activity android:name=".DetailActivity"></activity>
         <activity android:name=".paises_afectados" />
         <activity android:name=".covid19" />
-        <activity android:name=".PaginaEmergencia" />
         <activity android:name=".menu" />
         <activity android:name=".sintomas" />
         <activity android:name=".recomendaciones" />

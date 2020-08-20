@@ -52,14 +52,6 @@ public class menu extends AppCompatActivity {
             }
         });
 
-        CardView card5 = (CardView) findViewById(R.id.card5);
-        card5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent (v.getContext(), PaginaEmergencia.class);
-                startActivityForResult(intent, 0);
-            }
-        });
 
         CardView card6 = (CardView) findViewById(R.id.card6);
         card6.setOnClickListener(new View.OnClickListener() {
